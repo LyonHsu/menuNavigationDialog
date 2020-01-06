@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NavigationMenuTest</string>
+    <string name="nav_header_title">Lyon Menu in Kotlin</string>
+</resources>
