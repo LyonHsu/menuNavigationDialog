@@ -132,11 +132,12 @@
     </set>
 5.  
     然後在MainActivity.kt 製作button來呼叫顯示
-    var navigationDialog = NavigationDialog()
-    var menubarRight = findViewById(R.id.menubarRight);
-    menubarRight.setOnClickListener {
-        navigationDialog.showRightDialog(this)
-    }
+    
+            var navigationDialog = NavigationDialog()
+            var menubarRight = findViewById(R.id.menubarRight);
+            menubarRight.setOnClickListener {
+                navigationDialog.showRightDialog(this)
+            }
     
 
 
